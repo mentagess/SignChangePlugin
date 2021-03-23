@@ -1,0 +1,19 @@
+name: SignChangeEvent
+
+author: [Mentagess, HiroTeam]
+
+version: 1.0.0
+
+api: 3.0.0
+
+main: Mentagess\Sign\SignChangeEvent
+
+description: WorldGuard extension to block Sign Change
+
+depend: [WorldGuard]
+
+permissions:
+
+  signchange.event:
+
+    default: op
